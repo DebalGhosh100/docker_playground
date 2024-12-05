@@ -1,0 +1,8 @@
+fastapi
+SQLAlchemy
+uvicorn
+pydantic-settings
+wheel
+psycopg2
+case-converter
+camel-converter

@@ -1,0 +1,14 @@
+version: "3"
+services:
+  postgres-instance:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=debalghosh
+      - POSTGRES_PASSWORD=debalghosh
+      - POSTGRES_DB=mydatabase
+  employee_service:
+    image: employee_service
+    ports:
+      - 8000:8000
